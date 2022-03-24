@@ -1,7 +1,7 @@
 {
-  "name": "random-messages",
+  "name": "random-messages-yenda09",
   "version": "1.0.0",
-  "description": "random of messages",
+  "description": "Whenever I start a new project, I don't know what to write for the first commit.",
   "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -12,5 +12,17 @@
     "node"
   ],
   "author": "yenda09 <yenda2002@hotmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "bin": {
+    "random-msg": "bin/global.js"
+  },
+  "preferGlobal": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yenda09/paquetes_con_npm.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Yenda09/paquetes_con_npm/issues"
+  },
+  "homepage": "https://github.com/Yenda09/paquetes_con_npm#readme"
 }
